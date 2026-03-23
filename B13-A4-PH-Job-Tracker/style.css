@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9fafb;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Center layout like Figma */
+.app {
+  width: 700px;
+}
+
+/* Dashboard */
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.stats {
+  display: flex;
+  gap: 15px;
+}
+
+/* Header */
+.jobs-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+/* Tabs */
+.tabs {
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 8px 16px;
+  border: none;
+  background: #e5e7eb;
+  cursor: pointer;
+  margin-right: 8px;
+  border-radius: 6px;
+}
+
+.tab.active {
+  background: #111827;
+  color: white;
+}
+
+/* Card */
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  position: relative;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.position {
+  color: #6b7280;
+  margin: 4px 0;
+}
+
+.meta {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* Status */
+.status {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 4px 12px;
+  font-size: 12px;
+  background: #e5e7eb;
+  border-radius: 20px;
+}
+
+/* Description */
+.description {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button.interview {
+  background: #d1fae5;
+  color: #065f46;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button.rejected {
+  background: #fee2e2;
+  color: #991b1b;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Delete */
+.delete {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Empty */
+.empty {
+  text-align: center;
+  margin-top: 40px;
+  color: gray;
+}
+
+.hidden {
+  display: none;
+}
